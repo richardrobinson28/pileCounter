@@ -1,5 +1,13 @@
 import java.util.Scanner;
 
+/* This program calculates how many piles of money in a triangular shape there 
+ * are, starting from adding bottom row of n piles and each row above until top 
+ * row of 1 pile. 
+
+ * It then calculates how much money is in the piles by multiplying the amount 
+ * of piles by the value of the coin and how many coins are in each pile.
+ */
+
 public class pyramid {
 	public static void main(String args[]) {
 		// Declares input
@@ -27,7 +35,7 @@ public class pyramid {
 
 		// Print out functions
 		System.out.println("\n" + add + " piles"); // Prints out sum of rows of triangle
-		System.out.println("£" + multiply); // Prints out sum of coins
+		System.out.println("Â£" + multiply); // Prints out sum of coins
 
 		// Closes input
 		input.close();
